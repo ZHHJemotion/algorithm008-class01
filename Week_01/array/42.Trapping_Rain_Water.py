@@ -37,4 +37,6 @@ class Solution:
             m_h = max(m_h, h)
             rain -= max_h - m_h
 
+        return rain
+
 # leetcode submit region end(Prohibit modification and deletion)
