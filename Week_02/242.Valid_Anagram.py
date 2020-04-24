@@ -27,5 +27,6 @@
 # leetcode submit region begin(Prohibit modification and deletion)
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
+        return sorted(s) == sorted(t)
 
 # leetcode submit region end(Prohibit modification and deletion)
