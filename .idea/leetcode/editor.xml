@@ -19,6 +19,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[144]Binary Tree Preorder Traversal.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[144]Binary Tree Preorder Traversal.py" />
+              <option name="questionId" value="144" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[15]3Sum.py">
           <value>
             <LeetcodeEditor>
@@ -168,6 +176,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[88]Merge Sorted Array.py" />
               <option name="questionId" value="88" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[94]Binary Tree Inorder Traversal.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[94]Binary Tree Inorder Traversal.py" />
+              <option name="questionId" value="94" />
             </LeetcodeEditor>
           </value>
         </entry>
