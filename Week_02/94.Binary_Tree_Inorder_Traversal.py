@@ -43,7 +43,7 @@ class Solution:
         # 迭代
         res = []
         stack = []
-        while stack or res:
+        while stack or root:
             while root:
                 stack.append(root)
                 root = root.left

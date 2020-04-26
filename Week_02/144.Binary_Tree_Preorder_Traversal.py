@@ -44,7 +44,7 @@ class Solution:
         # 迭代
         res = []
         stack = []
-        while stack or res:
+        while stack or root:
             while root:
                 res.append(root.val)
                 stack.append(root)
