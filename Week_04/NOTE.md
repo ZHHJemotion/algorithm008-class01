@@ -39,7 +39,7 @@
             ...
     ```
 ## BFS 代码模版
-- 1. 队列
+- 1.队列
     ```python
     def BFS(graph, start, end):
         visited = set()
