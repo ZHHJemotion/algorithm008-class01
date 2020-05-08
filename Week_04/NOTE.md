@@ -1,7 +1,7 @@
 # 算法训练营的第四周 学习笔记
 
 # DFS & BFS
-- DFS 代码模版
+## DFS 代码模版
 - 1.递归
     ```python
       visited = set() 
@@ -38,7 +38,7 @@
             # other processing work 
             ...
     ```
-- BFS 代码模版
+## BFS 代码模版
     ```python
     def BFS(graph, start, end):
         visited = set()
