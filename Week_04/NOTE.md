@@ -2,7 +2,7 @@
 
 # DFS & BFS
 ## DFS 代码模版
-- 1.递归
+- 递归
     ```python
       visited = set() 
 
@@ -20,7 +20,7 @@
                   dfs(next_node, visited)
     ```
   
-- 2.迭代 -- 栈
+- 迭代 -- 栈
     ```python
         def DFS(self, tree): 
             if tree.root is None: 
@@ -39,7 +39,7 @@
             ...
     ```
 ## BFS 代码模版
-- 1.队列
+- 队列
     ```python
     def BFS(graph, start, end):
         visited = set()
