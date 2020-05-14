@@ -76,5 +76,40 @@ while left <= right:
 ## 153. 寻找旋转排序数组中的最小值
 解题思路
 ```text
+    1. 判断 nums 的长度，如果长度是1，则最小值为 nums[0]
+    2. 判断是否为单调递增，如果最后的元素大于最左的元素，则说明单调递增，没有旋转
+    3. 进入二分查找的 while 循环
+        3.1 如果中间点大于其后面的相邻点，则这个相邻点为旋转的拐点，为最小点
+        3.2 如果中间点小于其前面的相邻点，则该中间点为旋转的拐点，为最小点
+        3.3 比较中间点和下标为0的元素大小
+            3.3.1 如果中间点大于下标为0的元素，则下标为0的元素到中间点为递增，则判断右边的列表
+            3.3.2 如果中间点小于下标为0的元素，则下标为0的元素到中间点为无序，则判断左边的列表
+```
 
+代码
+```python
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+        if len(nums) == 1:
+            return nums[0]
+
+        l, r = 0, len(nums)-1
+        # 递增没有拐点
+        if nums[l] <  nums[r]:
+            return nums[0]
+
+        while l <= r:
+            mid = (l + r) // 2
+            
+            # 拐点
+            if nums[mid] > nums[mid+1]:
+                return nums[mid+1] 
+            if nums[mid] < nums[mid-1]:
+                return nums[mid]
+
+            # 判断有序性
+            if nums[mid] > nums[0]:
+                l = mid + 1
+            else:
+                r = mid - 1
 ```
