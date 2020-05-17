@@ -128,4 +128,47 @@ class Solution:
         dfs(board, i, j)
         return board
 
+
+class Solution:
+    def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:
+        # BFS
+        if not board:
+            return []
+
+        i, j = click[0], click[1]
+        # 挖到地雷
+        if board[i][j] == 'M':
+            board[i][j] = 'X'
+            return board
+
+        nr, nc = len(board), len(board[0])
+        directions = [(0, 1), (1, 1), (1, 0), (1, -1), (0, -1), (-1, -1), (-1, 0), (-1, 1)]
+        queue = collections.deque()
+        queue.append((i, j))
+        visited = []
+        while queue:
+            x, y = queue.popleft()
+            visited.append((x, y))
+
+            if board[x][y] == 'E':
+                mine_num = 0
+                # 遍历八个方向，计数地雷数量
+                for d in directions:
+                    ni, nj = x + d[0], y + d[1]
+                    if 0 <= ni < nr and 0 <= nj < nc and board[ni][nj] == 'M':
+                        mine_num += 1
+                # 为当前位置标 B 或者 周围地雷数量
+                if mine_num == 0:
+                    board[x][y] = 'B'  # 周围八个位置没有地雷，标注B
+                else:
+                    board[x][y] = str(mine_num)  # 周围八个位置有地雷，标注地雷数量
+
+                for d in directions:
+                    ni, nj = x + d[0], y + d[1]
+                    # 只对当前位置标B进行下一步的遍历
+                    if 0 <= ni < nr and 0 <= nj < nc and board[x][y] == 'B':
+                        visited.append((ni, nj))
+                        queue.append((ni, nj))
+        return board
+
 # leetcode submit region end(Prohibit modification and deletion)
