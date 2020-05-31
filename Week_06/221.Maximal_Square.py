@@ -16,6 +16,8 @@
 
 
 # leetcode submit region begin(Prohibit modification and deletion)
+from typing import List
+
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
         # 动态规划
