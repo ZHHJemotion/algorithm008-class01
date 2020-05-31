@@ -19,6 +19,30 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[122]Best Time to Buy and Sell Stock II.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[122]Best Time to Buy and Sell Stock II.py" />
+              <option name="questionId" value="122" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[126]Word Ladder II.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[126]Word Ladder II.py" />
+              <option name="questionId" value="126" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[127]Word Ladder.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[127]Word Ladder.py" />
+              <option name="questionId" value="127" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[141]Linked List Cycle.py">
           <value>
             <LeetcodeEditor>
@@ -32,6 +56,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[144]Binary Tree Preorder Traversal.py" />
               <option name="questionId" value="144" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[153]Find Minimum in Rotated Sorted Array.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[153]Find Minimum in Rotated Sorted Array.py" />
+              <option name="questionId" value="153" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -59,6 +91,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[200]Number of Islands.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[200]Number of Islands.py" />
+              <option name="questionId" value="200" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[206]Reverse Linked List.py">
           <value>
             <LeetcodeEditor>
@@ -72,6 +112,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[21]Merge Two Sorted Lists.py" />
               <option name="questionId" value="21" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[221]Maximal Square.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[221]Maximal Square.py" />
+              <option name="questionId" value="221" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -131,11 +179,35 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[32]Longest Valid Parentheses.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[32]Longest Valid Parentheses.py" />
+              <option name="questionId" value="32" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[33]Search in Rotated Sorted Array.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[33]Search in Rotated Sorted Array.py" />
+              <option name="questionId" value="33" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[347]Top K Frequent Elements.py">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[347]Top K Frequent Elements.py" />
               <option name="questionId" value="347" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[363]Max Sum of Rectangle No Larger Than K.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[363]Max Sum of Rectangle No Larger Than K.py" />
+              <option name="questionId" value="363" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -152,6 +224,22 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[42]Trapping Rain Water.py" />
               <option name="questionId" value="42" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[455]Assign Cookies.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[455]Assign Cookies.py" />
+              <option name="questionId" value="455" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[45]Jump Game II.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[45]Jump Game II.py" />
+              <option name="questionId" value="45" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -179,6 +267,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[529]Minesweeper.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[529]Minesweeper.py" />
+              <option name="questionId" value="529" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[55]Jump Game.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[55]Jump Game.py" />
+              <option name="questionId" value="55" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[589]N-ary Tree Preorder Traversal.py">
           <value>
             <LeetcodeEditor>
@@ -187,11 +291,35 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[621]Task Scheduler.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[621]Task Scheduler.py" />
+              <option name="questionId" value="621" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[641]Design Circular Deque.py">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[641]Design Circular Deque.py" />
               <option name="questionId" value="859" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[647]Palindromic Substrings.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[647]Palindromic Substrings.py" />
+              <option name="questionId" value="647" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[64]Minimum Path Sum.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[64]Minimum Path Sum.py" />
+              <option name="questionId" value="64" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -211,6 +339,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[72]Edit Distance.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[72]Edit Distance.py" />
+              <option name="questionId" value="72" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[74]Search a 2D Matrix.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[74]Search a 2D Matrix.py" />
+              <option name="questionId" value="74" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[77]Combinations.py">
           <value>
             <LeetcodeEditor>
@@ -219,11 +363,35 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[860]Lemonade Change.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[860]Lemonade Change.py" />
+              <option name="questionId" value="890" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[874]Walking Robot Simulation.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[874]Walking Robot Simulation.py" />
+              <option name="questionId" value="906" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[88]Merge Sorted Array.py">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[88]Merge Sorted Array.py" />
               <option name="questionId" value="88" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[91]Decode Ways.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../tmp_leetcode/leetcode/editor/en/[91]Decode Ways.py" />
+              <option name="questionId" value="91" />
             </LeetcodeEditor>
           </value>
         </entry>
