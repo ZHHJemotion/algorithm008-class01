@@ -66,6 +66,6 @@ def AstarSearch(graph, start, end):
 
 		process(node) 
 		nodes = generate_related_nodes(node) 
-   unvisited = [node for node in nodes if node not in visited]
+        unvisited = [node for node in nodes if node not in visited]
 		pq.push(unvisited)
 ```
