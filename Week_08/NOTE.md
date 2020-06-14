@@ -4,22 +4,48 @@
 ## 选择排序
 ### python 代码
 ```python
-
+def selection_sort(nums):
+    if len(nums) <= 1:
+        return nums
+    else:
+        for i in range(len(nums)-1):
+            min_index = i
+            for j in range(i+1, len(nums)):
+                if nums[min_index] > nums[j]:
+                    min_index = j
+            nums[i], nums[min_index] = nums[min_index], nums[i]
+        return nums
 ```
 
 ## 插入排序
 ### python 代码
 ```python
-
+def insertion_sort(nums):
+    if len(nums) <= 1:
+        return nums
+    else:
+        for i in range(len(nums)):
+            for j in range(i, 0, -1):
+                if nums[i] < nums[j-1]:
+                    nums[i], nums[j-1] = nums[j-1], nums[i]
+                else:
+                    break
+        return nums
 ```
 
 ## 冒泡排序
 ### python 代码
 ```python
-
+def bubble_sort(nums):
+    if len(nums) <= 1:
+        return nums
+    else:
+        for i in range(len(nums)-1):
+            for j in range(len(nums)-1-i):
+                if nums[i] > nums[j+1]:
+                    nums[i], nums[j+1] = nums[j+1], nums[i]
+        return nums    
 ```
-
-
 
 # 高级排序
 ## 快速排序
@@ -46,12 +72,12 @@ def partition(begin, end, nums):
 ## 归并排序
 ### python 代码
 ```python
-def mergesort(nums, left, right):
+def merge_sort(nums, left, right):
     if right <= left:
         return
     mid = (left+right) >> 1
-    mergesort(nums, left, mid)
-    mergesort(nums, mid+1, right)
+    merge_sort(nums, left, mid)
+    merge_sort(nums, mid+1, right)
     merge(nums, left, mid, right)
 
 def merge(nums, left, mid, right):
@@ -91,7 +117,7 @@ def heapify(parent_index, length, nums):
     nums[parent_index] = temp
 
 
-def heapsort(nums):
+def heap_sort(nums):
     for i in range((len(nums)-2)//2, -1, -1):
         heapify(i, len(nums), nums)
     for j in range(len(nums)-1, 0, -1):
